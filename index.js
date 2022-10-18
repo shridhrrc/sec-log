@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-mongoose.connect('mongodb://admin1:admin@10.0.8.4:27017/test',{
+mongoose.connect('mongodb://admin1:admin@10.0.1.4:27017/test',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
